@@ -14,9 +14,11 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,60 +41,68 @@
 
 <body>
   <div class="landing-header">
-    <div class="landing-header-section row">
-      <div class="col-9">
-        <p class="text-white landing-letter-spacing">
-          TRI HELP
-        </p>
-      </div>
-      <div class="col-3">
-        <div class="landing-header-right">
-          <div class="row">
-            <div class="col-5">
-              <span class="landing-header-text text-white">ENGLISH</span>
-              <img src="assets/img/button/en_badge_web_generic.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-7">
-              <span class="landing-header-button landing-header-text text-white">TIẾNG VIỆT</span>
-              <img src="assets/img/button/en_badge_web_generic.png" class="img-fluid" alt="">
+    <div class="container">
+      <div class="landing-header-section row">
+        <div class="col-lg-9 col-md-6 col-4">
+          <p class="mt-3 text-white landing-letter-spacing">
+            TRI HELP
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-8">
+          <div class="landing-header-right">
+            <div class="row">
+              <div class="col-6">
+                <button class="mt-1 custom-btn landing-header-text text-white btn-border-none">ENGLISH</button>
+                <img src="assets/img/button/en_badge_web_generic.png" class="img-fluid" alt="">
+
+              </div>
+              <div class="col-6">
+                <div>
+                  <button class="landing-header-text custom-btn btn-white">TIẾNG VIỆT</button>
+                </div>
+                <img src="assets/img/button/en_badge_web_generic.png" class="img-fluid" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="landing-header-section row">
-      <div class="col landing-header-section-left">
-        <h5 class="text-danger landing-header-font-weight">Sắp ra mắt !</h5>
-        <h1 class="landing-header-font-weight landing-letter-spacing">
-          <strong>
-            TRI.help
-          </strong>
-        </h1>
-      </div>
-      <div class="col landing-header-section-right">
-        <p class="text-white">GIẢI PHÁP TINH THẦN - NÂNG TẦM TRI THỨC</p>
+      <div class="landing-header-section d-flex flex-column-reverse flex-md-row">
+        <div class="landing-header-section-left">
+          <h5 class="text-danger landing-header-font-weight">Sắp ra mắt !</h5>
+          <h1 class="landing-header-font-weight landing-letter-spacing">
+            <strong>
+              TRI.help
+            </strong>
+          </h1>
+        </div>
+        <div class="landing-header-section-right">
+          <p class="text-white ">GIẢI PHÁP TINH THẦN - NÂNG TẦM TRI THỨC</p>
+        </div>
       </div>
     </div>
   </div>
+
   <div class="container">
     <div class="row">
-      <div class="col"><img src="assets/img/background/header-logo.jpg" class="img-fluid" alt=""></div>
-      <div class="col">
+      <div class="col-md-6 col-12"><img src="assets/img/background/header-logo.jpg" class="img-fluid" alt=""></div>
+      <div class="col-md-6 col-12">
         <p>
-          TRI.help hướng tới nâng cao sức khỏe tinh thần và tri thức của người dùng thông qua những trò chơi trí tuệ đa dạng, quen
-          thuộc với người Việt.
+          TRI.help <span class="font-family-auto">hướng tới nâng cao sức khỏe tinh thần và tri thức của người dùng thông qua những trò chơi trí tuệ đa
+          dạng, quen thuộc với người Việt.</span>
         </p>
         <p>
-          Hãy để lại thông tin để trở thành những người đầu tiên được trải nghiệm TRI.help!
+          <span class="font-family-auto">Hãy để lại thông tin để trở thành những người đầu tiên được trải nghiệm</span> TRI.help!
         </p>
+        <div>
+          <form class="receive-form">
+            <input type="email" class="form-control shadow-lg" id="inputPassword" placeholder="Email">
+            <button type="submit" class="btn mt-2 shadow-lg">Đăng Ký Nhận Thông Tin</button>
+          </form>
+        </div>
       </div>
-      
     </div>
-
   </div>
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <!-- <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -156,16 +166,13 @@
         &copy; Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  </footer> -->
+<!-- 
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

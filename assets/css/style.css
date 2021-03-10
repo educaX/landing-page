@@ -42,7 +42,6 @@ a:hover {
 }
 
 .landing-header .row p{
-  padding: 20px;
   font-size: 18px;
 }
 
@@ -51,13 +50,12 @@ a:hover {
 }
 
 .landing-header-section-right {
-  margin-top: 40px;
-  margin-left: 160px;
+  margin: auto 0;
 }
 
 .landing-header-text {
   font-size: 12px;
-  margin-left: 10px;
+  min-width: 100px;
 }
 
 .landing-header-font-weight {
@@ -65,8 +63,8 @@ a:hover {
 }
 
 .landing-header-section-left {
-  margin-left: 100px;
   margin-top: 30px;
+  margin-right: auto;
 }
 
 .landing-header-section-left h1 {
@@ -86,14 +84,87 @@ a:hover {
   padding: 30px;
 }
 .landing-header-right img {
-  width: 130px;
-  min-width: 130px;
+  width: 100px;
+  min-width: 100px;
 }
+
 .landing-header-button {
   border: 2px white solid;
   border-radius: 30%;
   padding: 5px 15px;
 }
+
+/* Button */
+.custom-btn {
+  background-color: transparent;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+/* Green */
+.btn-white {
+  border: 2px white solid;
+  color: white;
+}
+
+.btn-border-none {
+  border: 0px;
+}
+
+.font-family-auto {
+  font-family: auto;
+}
+
+.receive-form {
+  width: 400px;
+  margin: auto;
+}
+.receive-form button{
+  width: 250px;
+  background-color: #e24d55;
+  color: white;
+  border-radius: 2rem;
+}
+.receive-form input{
+  width: 250px;
+  background-color: blue;
+  color: white;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .landing-header-right img {
+    width: 90px;
+    min-width: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landing-header-right img {
+    width: 80px;
+    min-width: 80px;
+  }
+  .landing-header-section-right {
+    font-size: 12px;
+    margin-left: auto;
+    width: 150px;
+  }
+  .landing-header-section-left {
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .landing-header-section-left h5 {
+    font-size: 16px;
+  }
+  .landing-header-section-left h1 {
+    font-size: 40px;
+  }
+  .receive-form {
+    width: 250px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Footer

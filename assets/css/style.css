@@ -8,10 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  height: 100%;
+}
+
 body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: 'Roboto', sans-serif;
   color: #444444;
+  height: 100%;
 }
 
 a {
@@ -34,6 +39,7 @@ a:hover {
 } */
 .landing-header {
   background-image: url('../img/background/bg-header.jpg');
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: transparent;
 }
@@ -120,23 +126,46 @@ a:hover {
   width: 400px;
   margin: auto;
 }
-.receive-form button{
+.receive-form button {
   width: 250px;
-  background-color: #e24d55;
+  background-color: #f35b7d;
   color: white;
   border-radius: 2rem;
 }
-.receive-form input{
+.receive-form input {
   width: 250px;
-  background-color: blue;
+  background-color: #5cc6fa;
   color: white;
   border-radius: 2rem;
+}
+.introduction-text {
+  padding: 20px;
 }
 
-@media screen and (max-width: 992px) {
+.coner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 0%;
+}
+
+.coner img {
+  width: 15%;
+}
+
+@media screen and (max-width: 900px) {
   .landing-header-right img {
     width: 90px;
     min-width: 90px;
+  }
+  .receive-form {
+    width: 300px;
+  }
+  .coner {
+    min-height: 42%;
+  }
+  .coner img {
+    width: 20%;
   }
 }
 
@@ -160,8 +189,21 @@ a:hover {
   .landing-header-section-left h1 {
     font-size: 40px;
   }
+  .landing-header-right img {
+    margin-left: 10px
+  }
   .receive-form {
     width: 250px;
+  }
+  .landing-header {
+    background-size: 100% 80%;
+    background-color: transparent;
+  }
+  .coner img {
+    width: 30%;
+  }
+  .coner {
+    min-height: 0%;
   }
 }
 

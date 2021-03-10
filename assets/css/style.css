@@ -223,6 +223,10 @@ a:hover {
   .coner {
     min-height: 0%;
   }
+  .text-in-picture {
+    font-size: 12px;
+    top: -80px;
+  }
 }
 
 

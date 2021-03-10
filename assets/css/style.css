@@ -37,12 +37,19 @@ a:hover {
 /* * {
   font-family: robo;
 } */
-.landing-header {
+.landing-header-bg-1 {
   background-image: url('../img/background/bg-header.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: transparent;
 }
+.landing-header-bg-2 {
+  background-image: url('../img/background/bg-header-2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+}
+
 .landing-header .landing-header-section {
   height: 140px;
 }
@@ -126,6 +133,13 @@ a:hover {
   width: 400px;
   margin: auto;
 }
+
+.text-in-picture {
+  padding: 0 15px;
+  margin: auto;
+  position: relative;
+  top: -100px;
+}
 .receive-form button {
   width: 250px;
   background-color: #f35b7d;
@@ -151,6 +165,10 @@ a:hover {
 
 .coner img {
   width: 15%;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 @media screen and (max-width: 900px) {

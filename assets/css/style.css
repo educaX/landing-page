@@ -135,11 +135,12 @@ a:hover {
 }
 
 .text-in-picture {
-  padding: 0 15px;
+  padding: 0 35px;
   margin: auto;
   position: relative;
-  top: -100px;
+  top: -125px;
 }
+
 .receive-form button {
   width: 250px;
   background-color: #f35b7d;
@@ -171,6 +172,10 @@ a:hover {
   margin: auto;
 }
 
+.corner-2 img{
+  width: 100%;
+}
+
 @media screen and (max-width: 900px) {
   .landing-header-right img {
     width: 90px;
@@ -184,6 +189,11 @@ a:hover {
   }
   .coner img {
     width: 20%;
+  }
+  .text-in-picture {
+    padding: 0 40px;
+    font-size: 14px;
+    top: -120px;
   }
 }
 
@@ -224,6 +234,7 @@ a:hover {
     min-height: 0%;
   }
   .text-in-picture {
+    padding: 0 20px;
     font-size: 12px;
     top: -80px;
   }

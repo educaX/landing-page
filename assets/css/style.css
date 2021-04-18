@@ -18,7 +18,12 @@ body {
   color: #444444;
   height: 100%;
 }
-
+.row margin-auto {
+  font-family: 'Roboto', sans-serif;
+}
+.p { 
+  font-family: 'Roboto', sans-serif;
+}
 a {
   text-decoration: none;
   color: #d9232d;
@@ -125,8 +130,8 @@ a:hover {
   border: 0px;
 }
 
-.font-family-auto {
-  font-family: auto;
+.font-family {
+  font-family: 'Roboto', sans-serif;
 }
 
 .receive-form {
@@ -152,6 +157,9 @@ a:hover {
   background-color: #5cc6fa;
   color: white;
   border-radius: 2rem;
+}
+.receive-form input::placeholder {
+  color: white;
 }
 .introduction-text {
   padding: 20px;

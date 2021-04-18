@@ -1,0 +1,41 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif ;
+     color: #23242A;
+}
+.container {
+    display: flex;
+}
+.h1 {
+    font-size: 52px;
+    font-weight: 700;
+    font-style: normal
+}
+.p {
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+}
+/* .left img {
+    width: 100%;
+} */
+.left {
+    width: 40%;
+}
+.right {
+    width: 60%;
+}
+.left .below {
+    background-image: url("image/image3.png");
+    height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+  }
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

@@ -73,7 +73,7 @@ a:hover {
 
 .landing-header-text {
   font-size: 12px;
-  min-width: 100px;
+  min-width: 102px;
 }
 
 .landing-header-font-weight {
@@ -178,6 +178,9 @@ a:hover {
 
 .margin-auto {
   margin: auto;
+}
+.margin-2 {
+  margin: 2px;
 }
 
 .corner-2 img{
@@ -413,4 +416,20 @@ a:hover {
 
 #footer .credits a:hover {
   color: white;
+}
+
+/* Features */
+ul {
+  list-style: none;
+  padding: 0px;
+}
+.container-scroll {
+  max-height: 100vh;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll {
+  scroll-snap-align: start;
 }
